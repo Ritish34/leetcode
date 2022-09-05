@@ -12,8 +12,10 @@ public class AssignCookies {
         for(int i=0;i<numberOfChildren && cookie<numberOfCookies;){
             if(s[cookie] >= g[i]){
                 i++;
+               // answer++;
                 answer++;
             }
+          //  cookie++;
             cookie++;
         }
         return answer;
